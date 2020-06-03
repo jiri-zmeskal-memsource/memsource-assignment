@@ -26,9 +26,11 @@ on this page user should be able to:
     
 #### Project create/edit page
 On this page, user should be able to:
- - create/edit the project
+ - create/edit the project's:
+    - name
+    - source language
+    - target language
  
-
 Please, use this application as a backend for your app. 
 
 Application is simple spring boot app and can be fired with `mvn spring-boot:run`
