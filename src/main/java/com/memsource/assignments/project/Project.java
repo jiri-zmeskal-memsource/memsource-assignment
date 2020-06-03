@@ -20,6 +20,8 @@ public class Project {
 
     private String sourceLanguage;
 
+    private ProjectStatus status;
+
     @ElementCollection(targetClass = String.class)
     private Set<String> targetLanguages;
 

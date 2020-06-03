@@ -38,6 +38,7 @@ public class ProjectBootstrapService implements InitializingBean {
             int rand = (int) (Math.random() * 10);
             p.setSourceLanguage(langs[rand ]);
             p.setTargetLanguages(stream(langs, 0, (rand / 2)).collect(Collectors.toSet()));
+            p.setStatus(ProjectStatus.DELIVERED);
 
             return p;
         }).forEach( project -> projectRepository.save(project));
