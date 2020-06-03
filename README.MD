@@ -32,5 +32,7 @@ On this page, user should be able to:
 Please, use this application as a backend for your app. 
 
 Application is simple spring boot app and can be fired with `mvn spring-boot:run`
-App starts on port 8090
+
+App starts on port `8090`
+
 API documentation can be found on [localhost:8090/swagger-ui/index.html](http://localhost:8090/swagger-ui/index.html)
