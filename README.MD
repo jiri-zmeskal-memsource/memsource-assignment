@@ -37,4 +37,4 @@ Application is simple spring boot app and can be fired with `mvn spring-boot:run
 
 App starts on port `8090`
 
-API documentation can be found on [localhost:8090/swagger-ui/index.html](http://localhost:8090/swagger-ui/index.html)
+API documentation can be found on [http://localhost:8090/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config](http://localhost:8090/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config)
