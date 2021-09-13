@@ -1,6 +1,6 @@
 ### Memsource Developer Assignment
 
-Please prepare a production quality JavaScript/TypeScript application with 2 screens: 
+Please prepare a production quality JavaScript/TypeScript (TS preferred) application with 2 screens:
 
 - List of the projects
 - Create a new project
